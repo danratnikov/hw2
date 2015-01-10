@@ -7,11 +7,12 @@
 				li.works-list__item
 					a.works-list__link(href="#")
 						.works-list__thumb
-							img.works-list__img(src="http://lorempixel.com/180/125/nature/" + i)
+							img.works-list__img(src="img/works/work_" + i + ".jpg")
 							.works-list__hover
 								p.works-list__title
 									span.works-list__title-in Название
 						p.works-list__url www.site.ru
 						p.works-list__desc= "Информация о проекте " + i + " превью 2 строки"
 			li.works-list__item
-				img.works-list__img.works-list__img__add-item(src="http://lorempixel.com/180/125/nature/")
+				a(href="").add-work__link
+					img.works-list__img.works-list__img__add-item(src="img/add-works.png")

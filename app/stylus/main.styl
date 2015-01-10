@@ -353,26 +353,34 @@ body
 	text-decoration none
 	
 .works-list__thumb
-	overflow hidden
+	overflow none
 	position relative
 	height 127px
 	border-radius(5px)
 	margin-bottom 7px
+	&:hover .works-list__hover
+		opacity 1
+		
 
 .works-list__img
 	max-width 180px
 	height 100%
 	border 2px solid #3ea9c1
 	border-radius(5px)
+	
+.works-list__img__add-item
+	border none
+	wow-effect()
 		
 .works-list__hover
-	// display none
+	opacity 0
 	position absolute
 	top 0
 	left 0
-	bottom 0
+	bottom -2px
 	right 0
-	background-color: rgba(1, 108, 164, 0.749);
+	background-color rgba(1, 108, 164, 0.749)
+	transition 0.3s all 0 ease
 
 .works-list__title
 	padding 0
@@ -393,7 +401,8 @@ body
 	color #3ba8c0
 	margin 0 0 7px 0
 
-
+.add-work__link
+	display block
 .works-list__desc
 	font 15px/19px 'fira_sansbook'
 	color #4a545d
