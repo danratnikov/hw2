@@ -1,9 +1,9 @@
 Домашняя работа №1
 ==================
 
-Для использования
+Для просмотра
 
-1. Clone this repository
+1. >Clone this repository
 
 2. >npm install
 
