@@ -1,2 +1,27 @@
 .feedback
-	p hjglhjgkgh
+	form#feedback
+		h2.form__header У вас интересный проект? Напишите мне
+		.divider-blue
+		.form-content
+			.form-container
+				.form__row
+					.form__col
+						label.form__label Имя
+							input.form__input(type="text" placeholder="Как к Вам обращаться")
+					.form__col.form__col__right
+						label.form__label Email
+							input.form__input(type="email" placeholder="Куда мне писать")
+				.form__row
+					label.form__label Сообщение
+						textarea.form__input.form__input__textarea(placeholder="Кратко в чем суть")
+				.form__row
+					label.form__label Введите код, указанный на картинке
+						.form__captcha
+							.form__input.form__input__img-captcha
+								img.form__input__img(src="img/captcha.jpg")
+							input.form__input.form__input__captcha(type="text" placeholder="Введите код")
+				.form__row.form__row__buttons
+					.form__col
+						input.form__button.form__button__submit(type="submit" value="Отправить")
+					.form__col.form__col__right
+						input.form__button.form__button__clear(type="button" value="Очистить")
