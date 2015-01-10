@@ -1,0 +1,44 @@
+transition()
+  -webkit-transition: arguments
+  -moz-transition: arguments
+  transition: arguments  
+
+transform()
+  -webkit-transform: arguments
+  -moz-transform: arguments
+  transform: arguments  
+  
+border-radius()
+  -webkit-border-radius: arguments
+  -moz-border-radius: arguments
+  border-radius: arguments
+box-shadow()
+  -webkit-box-shadow: arguments
+  -moz-box-shadow: arguments
+  box-shadow: arguments
+
+border-box()
+  -webkit-box-sizing: border-box
+  -moz-box-sizing: border-box
+  box-sizing: border-box
+
+cf()
+  &:before
+    clear: both
+  &:after
+    clear: both
+
+placeholder-color(color)
+  &::-webkit-input-placeholder
+    color color
+  &::-moz-placeholder
+    color color
+  &:-moz-placeholder
+    color color
+  &:-ms-input-placeholder
+    color color
+
+wow-effect()  
+  transition transform 0.3s ease 0s
+  &:hover
+    transform: scale(1.1)

@@ -1,4 +1,4 @@
-Blank project for web application
+Домашняя работа №1
 =================================
 
 ## For start develop:
@@ -11,6 +11,3 @@ Blank project for web application
 
 4. >gulp
 
-Create your .jade files into `app/jade` folder and .styl files into `app/stylus` folder
-
-`index.html` always has placed into `app/`
