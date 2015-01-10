@@ -1,0 +1,47 @@
+.b-content.main-info
+	h2.b-content__header
+		span Основная информация
+	.b-content__body
+		.main-info__photo
+			img.main-info__img(src="../img/face.png")
+		.main-info__props
+			dl.prop
+				.prop-line
+					dt.prop__name Меня зовут
+					dd.prop__val.prop__val__name Ратников Данил Геннадьевич
+				.prop-line
+					dt.prop__name Мой возраст
+					dd.prop__val.prop__val__age 33 года
+				.prop-line
+					dt.prop__name Мой город
+					dd.prop__val.prop__val__town Нижний Тагил
+				.prop-line
+					dt.prop__name Моя специализация
+					dd.prop__val.prop__val__profile FRONTEND разработчик
+				.prop-line
+					dt.prop__name Ключевые навыки
+					dd.prop__val.prop__val__skills
+						each skill in ['html', 'css', 'javascript', 'gulp', 'git']
+							span.prop__skill= skill
+.b-content.jobs-info
+	h2.b-content__header
+		span Опыт работы
+	.b-content__body
+		ul.content-list
+			li.content-list__item.content-list__item__job
+				h4.content-list__header "ИП Боровицкий" - Продавец дисков
+				p.content-list__text Сентябрь 2005 - Август 2008
+			li.content-list__item.content-list__item__job
+				h4.content-list__header "ООО Системы безопастности" - Системный администратор
+				p.content-list__text Июнь 2008 - Июль 2010
+.b-content.edu-info
+	h2.b-content__header
+		span Образование
+	.b-content__body
+		ul.content-list
+			li.content-list__item.content-list__item__edu
+				h4.content-list__header Незаконченное высшее. СПБГУ ИТМО
+				p.content-list__text Октябрь 2012 - по настоящее время
+			li.content-list__item.content-list__item__sheet
+				h4.content-list__header Курсы Loftschool.ru
+				p.content-list__text Ноябрь 2014 - по настоящее время
