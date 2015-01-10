@@ -1,0 +1,13 @@
+.b-content
+	h2.b-content__header
+		span Мои работы
+	.b-content__body
+		ul.works-list
+			- for (var i=1; i<=4; i++)
+				li.works-list__item
+					.works-list__thumb
+						img.works-list__img(src="http://lorempixel.com/180/125/people/" + i)
+						.works-list__hover
+							p.works-list__title
+					p.works-list__url www.site.ru
+					p.works-list__desc= "Информация о проекте " + i + " 2 строки"
