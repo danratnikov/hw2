@@ -48,12 +48,12 @@
                 <div class="b-content__body">
                   <ul class="content-list">
                     <li class="content-list__item content-list__item__job">
-                      <h4 class="content-list__header">"ИП Боровицкий" - Продавец дисков</h4>
-                      <p class="content-list__text">Сентябрь 2004 - Август 2008</p>
+                      <h4 class="content-list__header">"ЗАО Трест №88 - Мастер ПГС</h4>
+                      <p class="content-list__text">Сентябрь 2005 - Сентябрь 2009</p>
                     </li>
                     <li class="content-list__item content-list__item__job">
-                      <h4 class="content-list__header">"ООО Системы безопастности" - Системный администратор</h4>
-                      <p class="content-list__text">Июнь 2008 - Июль 2010</p>
+                      <h4 class="content-list__header">"ЗАО ГП УралГазСтрой" - Мастер ПГС</h4>
+                      <p class="content-list__text">Сентябрь 2008 - Март 2013</p>
                     </li>
                   </ul>
                 </div>
@@ -63,8 +63,8 @@
                 <div class="b-content__body">
                   <ul class="content-list">
                     <li class="content-list__item content-list__item__edu">
-                      <h4 class="content-list__header">Незаконченное высшее. СПБГУ ИТМО</h4>
-                      <p class="content-list__text">Октябрь 2012 - по настоящее время</p>
+                      <h4 class="content-list__header">Высшее НТИ(ф) УГТУ-УПИ - Инженер-строитель</h4>
+                      <p class="content-list__text">Октябрь 1998 - 2004</p>
                     </li>
                     <li class="content-list__item content-list__item__sheet">
                       <h4 class="content-list__header">Курсы Loftschool.ru</h4>
