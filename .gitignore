@@ -1,4 +1,4 @@
 app/bower
 node_modules/
-app/*.*
 app/css/
+app/*.html
