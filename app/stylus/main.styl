@@ -460,6 +460,8 @@ body
 	border-radius(5px)
 	background-color #fff
 	width 90%
+	&:focus
+		outline none
 
 .form__input__textarea
 	width 384px
@@ -483,6 +485,7 @@ body
 	padding-bottom 0px
 
 .form__button
+	border-box()
 	font 19px 'fira_sansbook'
 	display block
 	color #fff
@@ -491,13 +494,26 @@ body
 	border-radius(5px)
 	border none
 	outline none
+	border-bottom 3px solid #3ba8c0
 
 .form__button__clear
 	background-color #849db5
 	float right
-
+	border-bottom 3px solid #687b8f
+	border-top 3px solid #849db5
+	&:hover
+		border-bottom 3px solid #849db5
+	&:active
+		border-top 3px solid #687b8f
+	
 .form__button__submit
 	background-color #48cbe8
+	border-bottom 3px solid #3ba8c0
+	border-top 3px solid #48cbe8
+	&:hover
+		border-bottom 3px solid #48cbe8
+	&:active
+		border-top 3px solid #3ba8c0
 
 .form__row__buttons
 	padding-top 20px
