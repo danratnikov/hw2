@@ -1,0 +1,27 @@
+.modal-box
+	.add-form
+		form#addform
+		h2.form__header.form__header__addform Добавление проекта
+			a.close-icon(href="")
+		.divider-blue
+		.form-content
+			.addform-container
+				.form__row
+					.form-error
+						h4.form-error__title Ошибка!
+						p.form-error__desc Невозможно добавить проект.
+				.form__row
+					label.form__label Название проекта
+						input.form__input(type="text" placeholder="Введите название")
+				.form__row
+					label.form__label Картинка проекта
+						a.upload-icon(href="")
+						input.form__input(type="text" placeholder="Загрузите изображение")							
+				.form__row
+					label.form__label URL проекта
+						input.form__input(type="text" placeholder="Добавьте ссылку")
+				.form__row
+					label.form__label Описание
+						textarea.form__input.form__input__textarea(placeholder="Пара слов о вашем проекте")
+				.form__row
+					input.form__button.form__button__submit.form__button__addform(type="submit" value="Отправить")
