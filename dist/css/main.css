@@ -990,3 +990,48 @@ body {
   border-radius: 0 5px 5px 0;
   background: no-repeat url("../img/upload-icon.png") #48cbe8 center;
 }
+.login-form {
+  width: 590px;
+  margin: 100px auto 100px auto;
+  margin-bottom: 100px;
+  -webkit-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.3);
+  box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.3);
+}
+.login-form .form-content {
+  padding: 18px 0 30px 0;
+}
+.login-form .form__row {
+  margin-bottom: 20px;
+}
+.login-form .form-container {
+  width: 423px;
+  text-align: center;
+}
+.login-form .form__header {
+  font-size: 40px;
+  padding-top: 10px;
+}
+.login-form .form__label {
+  text-align: center;
+  font-size: 36px;
+  line-height: 50px;
+}
+.login-form .form__input {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 60px;
+  width: 100%;
+  font-size: 17px;
+}
+.login-form .form__button {
+  width: 229px;
+  margin: 0 auto;
+  font-size: 36px;
+  line-height: 50px;
+  min-height: 50px;
+}
+.login-form .button-row {
+  margin-top: 50px;
+}

@@ -19,6 +19,11 @@ switch ($page) {
 		$title = "Мои контакты";
 		require "contact.php";
 		break;
+
+	case 'login':
+		$title = "Авторизация";
+		require "login.php";
+		break;
 	
 	default:
 		$title = "Обо мне";
